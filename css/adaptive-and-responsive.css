@@ -466,7 +466,6 @@ body {
 }
 
 .team-item {
-  margin-bottom: 72px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -479,7 +478,6 @@ body {
   gap: 24px;
   align-items: center;
   justify-content: center;
-  padding-top: 8px;
 }
 
 .social-link-icon-team {
@@ -529,6 +527,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .team-list-svg {
@@ -551,7 +550,10 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 64px 24px;
+    gap: 72px 24px;
+  }
+  .team-item {
+    flex-basis: calc((100% - 10px) / 2);
   }
 }
 /* /Tablet team */
@@ -751,6 +753,7 @@ body {
   gap: 16px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .social-link-icon {
@@ -844,7 +847,9 @@ body {
     flex-wrap: wrap;
     align-items: baseline;
   }
-
+  .container-footer {
+    max-width: 584px;
+  }
   .logo-footer {
     text-align: start;
     display: block;
@@ -853,7 +858,6 @@ body {
   .logo-container {
     width: 264px;
     margin-right: 24px;
-    margin-left: 96px;
   }
 
   .container-social-media {
@@ -866,9 +870,7 @@ body {
     padding-right: 0;
   }
 
-  .footer-subtscribe-list {
-    margin-left: 96px;
-  }
+  /* .footer-subtscribe-list {} */
 
   .footer-subscribe-paragraph {
     display: inline-block;
@@ -911,7 +913,7 @@ body {
   }
 
   .footer-subtscribe-list {
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
   .button-subs {
@@ -1349,10 +1351,8 @@ body {
 .phone-menu {
   font-style: normal;
   display: inline-block;
-  margin-top: 72px;
-  margin-bottom: 168px;
-  min-width: 151px;
-  margin-left: 0;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 .menu-link-phone {
@@ -1420,10 +1420,6 @@ body {
 .phone-address-link:hover,
 .phone-address-link:focus {
   color: #4d5ae5;
-}
-
-.item-address-phone {
-  padding-bottom: 24px;
 }
 
 .phone-address-link:hover,
