@@ -1355,7 +1355,7 @@ body {
   font-style: normal;
   display: inline-block;
   padding-top: 72px;
-  padding-bottom: 72px;
+  margin-bottom: 168px;
 }
 
 .menu-link-phone {
@@ -1415,7 +1415,9 @@ body {
 .item-address-phone:last-child {
   margin-bottom: 0;
 }
-
+.item-address-phone {
+  padding-bottom: 24px;
+}
 .phone-address-link.address-active {
   color: #4d5ae5;
 }
