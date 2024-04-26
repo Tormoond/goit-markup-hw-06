@@ -553,7 +553,7 @@ body {
     gap: 72px 24px;
   }
   .team-item {
-    flex-basis: calc((100% - 10px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
 /* /Tablet team */
@@ -562,6 +562,9 @@ body {
 @media screen and (min-width: 1158px) {
   .team-section {
     padding: 120px 0;
+  }
+  .team-item {
+    width: auto;
   }
 }
 /* /Desktop team */
@@ -870,8 +873,6 @@ body {
     padding-right: 0;
   }
 
-  /* .footer-subtscribe-list {} */
-
   .footer-subscribe-paragraph {
     display: inline-block;
   }
@@ -899,21 +900,23 @@ body {
     margin-right: 120px;
     margin-bottom: 0;
   }
-
+  .container-footer {
+    max-width: 1158px;
+    justify-content: center;
+  }
   .subscribe-form {
     display: flex;
     flex-wrap: nowrap;
-    gap: 16px;
+    gap: 24px;
   }
-
-  .container-cosial-media {
+  .container-social-media {
     margin-right: 80px;
     margin-left: 0;
     margin-bottom: 0;
   }
 
   .footer-subtscribe-list {
-    margin-left: 80px;
+    margin-left: 0px;
   }
 
   .button-subs {
