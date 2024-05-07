@@ -24,6 +24,11 @@
     />
     <!-- Own styles link -->
     <link rel="stylesheet" href="./css/adaptive-and-responsive.css" />
+    <!-- Animation library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <header class="page-header">
@@ -78,7 +83,7 @@
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="benefits-menu">
             <li class="benefits-item">
-              <div class="benefits-icon-container">
+              <div class="benefits-icon-container scale-up-left">
                 <svg
                   class="icon-drawing"
                   width="64"
@@ -95,7 +100,7 @@
               </p>
             </li>
             <li class="benefits-item">
-              <div class="benefits-icon-container">
+              <div class="benefits-icon-container scale-up-left">
                 <svg
                   class="icon-drawing"
                   width="64"
@@ -112,7 +117,7 @@
               </p>
             </li>
             <li class="benefits-item">
-              <div class="benefits-icon-container">
+              <div class="benefits-icon-container scale-up-left">
                 <svg
                   class="icon-drawing"
                   width="64"
@@ -129,7 +134,7 @@
               </p>
             </li>
             <li class="benefits-item">
-              <div class="benefits-icon-container">
+              <div class="benefits-icon-container scale-up-left">
                 <svg
                   class="icon-drawing"
                   width="64"
@@ -155,12 +160,12 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-menu">
             <!-- product-designer-section start -->
-            <li class="team-item">
+            <li class="team-item team-item_one">
               <picture>
                 <source
                   srcset="
-                    ./images/our-team/prodact/product-desktop 1x-min.jpg 1x,
-                    ./images/our-team/prodact/product-desktop 2x-min.jpg 2x
+                    /images/our-team/prodact/product-desktop 1x-min.jpg 1x,
+                  /images/our-team/prodact/product-desktop 2x-min.jpg 2x
                   "
                   media="(min-width: 1158px)"
                 />
@@ -245,7 +250,7 @@
             <!-- product-designer-END -->
 
             <!-- frontend-developer-Start -->
-            <li class="team-item">
+            <li class="team-item team-item_two">
               <picture>
                 <source
                   srcset="
@@ -335,7 +340,7 @@
             <!-- frontend-developer-ENd -->
 
             <!-- marketing-person-START -->
-            <li class="team-item">
+            <li class="team-item team-item_three">
               <picture>
                 <source
                   srcset="
@@ -425,7 +430,7 @@
             <!-- marketing-person-END -->
 
             <!--ui-designer-START -->
-            <li class="team-item">
+            <li class="team-item team-item_four">
               <picture>
                 <source
                   srcset="
@@ -853,7 +858,7 @@
                 name="subscribe"
               />
             </label>
-            <button type="submit" class="button-subs">
+            <button type="submit" class="button-subs shake-horizontal">
               Subscribe
               <svg width="24" height="24" fill="white" class="icon-subs">
                 <use href="./images/icons.svg#icon-subscribe"></use>
